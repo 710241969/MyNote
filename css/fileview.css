@@ -1,0 +1,62 @@
+ div#file{
+     /*位置*/
+     float: left;
+     resize: horizontal;
+     /*盒子模型*/
+     height: 100%;
+     width: 20%;
+     max-width: 30%;
+     /*文字排版*/
+     color: #ffffff;
+     /*视觉*/
+     overflow-x: hidden;
+     overflow-y: auto;/*如果内容超出则出现滚动条*/
+     background-color: #00BFFF;
+     /*防止文字被选中*/
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+ }
+ 
+ 
+ /*左侧文件索引视图*/
+ div#tree{
+     float: left;
+     position: relative;
+     top: 10%;
+     height: 89%;
+     width: 100%;
+     overflow-x: hidden;
+}
+dl{
+    margin: 0px;
+}
+
+dd{
+    margin-left: 18px;
+}
+
+dt{
+    line-height: 20px;
+    height: 22px;
+    line-height: 120%;
+    font-size: 18px;
+    cursor: pointer;
+    overflow:hidden;
+}
+dt a{
+    color: #000;
+    text-decoration: none;
+    font: 12px/1 verdana;
+    line-height: 12px;
+    _line-height: 16px;
+}
+dt:hover{
+    background: #b0b0b0;
+    font-weight: bolder;
+}
+
+
+

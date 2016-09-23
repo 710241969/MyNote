@@ -1,0 +1,59 @@
+
+@font-face {font-family: "fi";
+  src: url('iconfont.eot?t=1473604417'); /* IE9*/
+  src: url('iconfont.eot?t=1473604417#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1473604417') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1473604417') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1473604417#fi') format('svg'); /* iOS 4.1- */
+}
+
+.fi {
+  font-family:"fi" !important;
+  font-size:18px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fi-search:before { content: "\e052"; }
+.fi-redo:before { content: "\e051"; }
+.fi-delete:before { content: "\e0a3"; }
+.fi-strikethrough:before { content: "\e004"; }
+.fi-textcolors:before { content: "\e005"; }
+.fi-separatepages:before { content: "\e014"; }
+.fi-fullscreen:before { content: "\e070"; }
+.fi-photo:before { content: "\e030"; }
+.fi-quote:before { content: "\e00c"; }
+.fi-undo:before { content: "\e050"; }
+.fi-date:before { content: "\e090"; }
+.fi-backgroundcolor:before { content: "\e006"; }
+.fi-file:before { content: "\e0b2"; }
+.fi-lock:before { content: "\e0a0"; }
+.fi-replace:before { content: "\e053"; }
+.fi-clearformat:before { content: "\e00d"; }
+.fi-cleancode:before { content: "\e060"; }
+.fi-unlink:before { content: "\e021"; }
+.fi-insertcode:before { content: "\e00e"; }
+.fi-folderopen:before { content: "\e0b1"; }
+.fi-link:before { content: "\e020"; }
+.fi-downarray:before { content: "\e0b4"; }
+.fi-horizontalline:before { content: "\e015"; }
+.fi-down:before { content: "\e00f"; }
+.fi-folderclose:before { content: "\e0b0"; }
+.fi-alignright:before { content: "\e00a"; }
+.fi-aligncenter:before { content: "\e009"; }
+.fi-alignleft:before { content: "\e008"; }
+.fi-subscript:before { content: "\e010"; }
+.fi-superscript:before { content: "\e011"; }
+.fi-unlock:before { content: "\e0a1"; }
+.fi-bold:before { content: "\e000"; }
+.fi-rightarray:before { content: "\e0b3"; }
+.fi-orderedlist:before { content: "\e012"; }
+.fi-unorderedlist:before { content: "\e013"; }
+.fi-emoticons:before { content: "\e007"; }
+.fi-underline:before { content: "\e003"; }
+.fi-alignjustify:before { content: "\e00b"; }
+.fi-CodeView:before { content: "\e080"; }
+.fi-table:before { content: "\e040"; }
+.fi-italic:before { content: "\e002"; }
+.fi-preview:before { content: "\e0a2"; }
